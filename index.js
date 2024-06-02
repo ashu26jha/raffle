@@ -1,6 +1,5 @@
 
 const MY_ACCOUNT_ID = '0.0.574650';
-const MY_PRIVATE_KEY = '3030020100300706052b8104000a04220420979a22c035e7e976fe43e37d1c19f786d3666bfa339af957d9c4e2ce95d0362e'
 const { Client, PrivateKey, TopicMessageSubmitTransaction, AccountBalanceQuery, Hbar, TransferTransaction } = require("@hashgraph/sdk");
 async function environmentSetup() {
 
